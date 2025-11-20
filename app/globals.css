@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-yellow: #FFD700;
+  --primary-orange: #FF8C00;
+  --primary-orange-dark: #FF6B00;
+  --dark-brown: #5C2E0F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-minecraft {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .glow-orange {
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+  }
+
+  .glow-yellow {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+  }
+
+  .bg-gradient-radial {
+    background: radial-gradient(circle, var(--tw-gradient-stops));
+  }
+}
+
+/* Timeline animations */
+@keyframes bump-timeline {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes pulse-glow-timeline {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes pulse-glow-delayed-timeline {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.animate-bump-timeline {
+  animation: bump-timeline 2.5s ease-in-out infinite;
+}
+
+.animate-pulse-glow-timeline {
+  animation: pulse-glow-timeline 2s ease-in-out infinite;
+}
+
+.animate-pulse-glow-delayed-timeline {
+  animation: pulse-glow-delayed-timeline 2s ease-in-out infinite 0.5s;
+}
