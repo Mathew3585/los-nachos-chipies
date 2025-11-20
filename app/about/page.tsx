@@ -167,7 +167,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] rounded-xl border-2 border-primary-orange/20 hover:border-primary-orange transition-all duration-300 overflow-hidden group">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/image/Staff/Helyah Communoty manger.jpeg"
+                  src="/image/Staff/Helyah-Communoty-manger.png"
                   alt="Helyah - Community Manager"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
@@ -194,8 +194,8 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] rounded-xl border-2 border-primary-orange/20 hover:border-primary-orange transition-all duration-300 overflow-hidden group">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/image/Staff/jj_boissonaulychee Chargé du lore.png"
-                  alt="jj_boissonaulychee - Chargé du lore"
+                  src="/image/Staff/jj-Charge-du-lore.png"
+                  alt="jj - Chargé du lore"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
                 />
@@ -203,7 +203,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-2xl font-bold text-white">jj_boissonaulychee</h3>
+                  <h3 className="text-2xl font-bold text-white">jj</h3>
                   <svg className="w-6 h-6 text-primary-orange" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/>
                   </svg>
@@ -221,7 +221,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] rounded-xl border-2 border-primary-orange/20 hover:border-primary-orange transition-all duration-300 overflow-hidden group">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/image/Staff/redrobinwspleen Chargé d'event.jpeg"
+                  src="/image/Staff/redrobinwspleen-Charge-event.png"
                   alt="redrobinwspleen - Chargé d'event"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
@@ -248,7 +248,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] rounded-xl border-2 border-primary-orange/20 hover:border-primary-orange transition-all duration-300 overflow-hidden group">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/image/Staff/ssengagness Modo.jpeg"
+                  src="/image/Staff/ssengagness-Modo.png"
                   alt="ssengagness - Modérateur"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
@@ -275,7 +275,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] rounded-xl border-2 border-primary-orange/20 hover:border-primary-orange transition-all duration-300 overflow-hidden group">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/image/Staff/wi_st3ria Chargé du lore.jpeg"
+                  src="/image/Staff/wi_st3ria-Charge-du-lore.jpeg"
                   alt="wi_st3ria - Chargé du lore"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
