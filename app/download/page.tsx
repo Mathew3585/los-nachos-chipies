@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaLinux, FaWindows, FaApple } from 'react-icons/fa';
+import { FaWindows } from 'react-icons/fa';
 
 export default function DownloadPage() {
   return (
@@ -26,36 +26,20 @@ export default function DownloadPage() {
           </p>
         </div>
 
-        {/* Download Cards */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {/* Windows */}
-          <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 rounded-xl border-2 border-primary-orange/30 hover:border-primary-orange transition-all duration-300 transform hover:scale-105 text-center">
-            <FaWindows className="w-16 h-16 mx-auto mb-4 text-primary-orange" />
-            <h3 className="text-2xl font-bold text-white mb-4">Windows</h3>
-            <p className="text-gray-400 mb-6">Windows 10/11</p>
-            <button className="w-full bg-gradient-to-r from-primary-orange to-primary-orange-dark hover:from-primary-yellow hover:to-primary-orange text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 glow-orange hover:glow-yellow shadow-lg">
+        {/* Download Card - Windows Only */}
+        <div className="flex justify-center mb-16">
+          <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-10 rounded-xl border-2 border-primary-orange/30 hover:border-primary-orange transition-all duration-300 transform hover:scale-105 text-center max-w-md w-full">
+            <FaWindows className="w-20 h-20 mx-auto mb-6 text-primary-orange" />
+            <h3 className="text-3xl font-bold text-white mb-4">Windows</h3>
+            <p className="text-gray-400 mb-8">Windows 10/11</p>
+            <a
+              href="/downloads/LosNachosChipies-Launcher.exe"
+              download
+              className="block w-full bg-gradient-to-r from-primary-orange to-primary-orange-dark hover:from-primary-yellow hover:to-primary-orange text-white font-bold py-4 px-6 rounded-lg transition-all duration-300 glow-orange hover:glow-yellow shadow-lg text-lg"
+            >
               Télécharger .exe
-            </button>
-          </div>
-
-          {/* macOS */}
-          <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 rounded-xl border-2 border-primary-orange/30 hover:border-primary-orange transition-all duration-300 transform hover:scale-105 text-center">
-            <FaApple className="w-16 h-16 mx-auto mb-4 text-primary-orange" />
-            <h3 className="text-2xl font-bold text-white mb-4">macOS</h3>
-            <p className="text-gray-400 mb-6">macOS 10.15+</p>
-            <button className="w-full bg-gradient-to-r from-primary-orange to-primary-orange-dark hover:from-primary-yellow hover:to-primary-orange text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 glow-orange hover:glow-yellow shadow-lg">
-              Télécharger .dmg
-            </button>
-          </div>
-
-          {/* Linux */}
-          <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 rounded-xl border-2 border-primary-orange/30 hover:border-primary-orange transition-all duration-300 transform hover:scale-105 text-center">
-            <FaLinux className="w-16 h-16 mx-auto mb-4 text-primary-orange" />
-            <h3 className="text-2xl font-bold text-white mb-4">Linux</h3>
-            <p className="text-gray-400 mb-6">Ubuntu 20.04+</p>
-            <button className="w-full bg-gradient-to-r from-primary-orange to-primary-orange-dark hover:from-primary-yellow hover:to-primary-orange text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 glow-orange hover:glow-yellow shadow-lg">
-              Télécharger .AppImage
-            </button>
+            </a>
+            <p className="text-gray-500 text-sm mt-4">macOS et Linux bientôt disponibles</p>
           </div>
         </div>
 
@@ -119,7 +103,7 @@ export default function DownloadPage() {
                 Minimum
               </h3>
               <ul className="space-y-2 text-gray-300">
-                <li><strong className="text-white">OS:</strong> Windows 10, macOS 10.15, Ubuntu 20.04</li>
+                <li><strong className="text-white">OS:</strong> Windows 10</li>
                 <li><strong className="text-white">Processeur:</strong> Intel Core i3 / AMD équivalent</li>
                 <li><strong className="text-white">RAM:</strong> 4 GB</li>
                 <li><strong className="text-white">GPU:</strong> Intégré</li>
@@ -134,7 +118,7 @@ export default function DownloadPage() {
                 Recommandé
               </h3>
               <ul className="space-y-2 text-gray-300">
-                <li><strong className="text-white">OS:</strong> Windows 11, macOS 12+, Ubuntu 22.04</li>
+                <li><strong className="text-white">OS:</strong> Windows 11</li>
                 <li><strong className="text-white">Processeur:</strong> Intel Core i5 / AMD équivalent</li>
                 <li><strong className="text-white">RAM:</strong> 8 GB</li>
                 <li><strong className="text-white">GPU:</strong> Dédié (GTX 1050 / équivalent)</li>
