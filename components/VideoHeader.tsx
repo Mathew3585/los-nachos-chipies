@@ -59,7 +59,7 @@ export default function VideoHeader() {
 
         {/* Subtitle */}
         <p className="text-2xl sm:text-3xl md:text-4xl text-white mb-12 animate-slide-up max-w-4xl font-semibold">
-          Plongez dans un serveur Minecraft RP unique où chaque saison apporte un nouveau thème et de nouvelles aventures !
+          Entrez dans Los Nachos Chipies, le serveur RP qui vous sert une nouvelle ambiance à chaque saison. Ici, les thèmes changent plus vite que le fromage ne fond, alors accrochez-vous : ça va croustiller.
         </p>
 
         {/* CTA Button */}
@@ -67,7 +67,7 @@ export default function VideoHeader() {
           href="/download"
           className="bg-gradient-to-r from-primary-orange to-primary-orange-dark hover:from-primary-yellow hover:to-primary-orange text-white text-xl sm:text-2xl font-bold py-4 px-12 sm:py-5 sm:px-16 rounded-xl transition-all duration-300 transform hover:scale-110 glow-orange hover:glow-yellow shadow-2xl animate-bounce-subtle"
         >
-          COMMENCER L'AVENTURE
+          COMMENCEZ L'AVENTURE
         </Link>
 
         {/* Scroll Indicator */}

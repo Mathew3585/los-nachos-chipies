@@ -45,23 +45,23 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Bienvenue sur <span className="text-primary-orange">Los Nachos Chipies</span>
+              Bienvenue sur <span className="text-primary-orange">Los Nachos Chipies</span>, survivant !
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Un serveur Minecraft RP unique avec des thèmes qui changent chaque saison
+              Ici peut commencer votre histoire, au cœur d'un monde brisé où les vestiges d'une civilisation oubliée s'accrochent encore aux ruines.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                Rejoignez un serveur Minecraft RP pas comme les autres. Chaque saison apporte
-                un nouveau thème, de nouvelles quêtes et des événements exclusifs qui transforment
-                complètement votre expérience de jeu.
+                La saison 1 vous embarque dans une aventure post-apocalyptique, où ressources rares,
+                alliances fragiles et imprévus seront votre quotidien.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Créez votre personnage, développez son histoire, nouez des alliances et
-                participez à des aventures épiques qui marqueront l'histoire du serveur.
+                Mais gardez en tête que notre monde ne cesse de changer. À chaque saison, Los Nachos Chipies
+                se réinvente. Aujourd'hui, vous luttez pour votre survie. Demain, peut-être marcherez-vous
+                dans un royaume médiéval ou un monde fantasy !
               </p>
 
               <div className="grid grid-cols-2 gap-6 pt-6">
@@ -104,9 +104,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4">Roleplay Immersif</h3>
+                <h3 className="text-2xl font-bold text-white mb-4">RP Immersif</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Incarnez votre personnage dans un univers riche avec des règles équilibrées pour une expérience authentique
+                  Découvrez un monde vivant où chaque joueur devient un vrai personnage, pas juste une chipie de passage !
                 </p>
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">Thèmes Saisonniers</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Chaque saison apporte un thème unique avec quêtes exclusives et événements spéciaux
+                  Chaque saison apporte une nouvelle saveur : nouveau thème, nouveaux events et nouvelles aventures à consommer sans modération.
                 </p>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">Communauté Active</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Une communauté passionnée et accueillante prête à partager de bons moments
+                  Rejoignez une communauté bienveillance max, toujours partante pour créer, partager et vivre de beaux moments ensemble.
                 </p>
               </div>
             </div>
